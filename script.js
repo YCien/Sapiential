@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
         result.textContent = 'You clicked me!';
     });
 
-    // Play background music when the page is loaded
-    backgroundMusic.play();
+    // Play background music when the page is clicked
+    document.addEventListener('click', function () {
+        backgroundMusic.play();
+    });
 });
