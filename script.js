@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     clickMe.addEventListener('click', function () {
-        result.textContent = 'You clicked me!';
+        result.textContent = '无论做什么 快乐最重要啦 圣诞快乐!';
         backgroundMusic.play();
     });
 });
